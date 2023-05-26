@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.x {
+    padding-top: 100px;
+}
+
+.x4 {
+    margin-left: 90px;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .x5 {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+.img1 {
+    background-image: url(../images/template1/lucas-calloch-P-yzuyWFEIk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+    width: 100%;
+}
+
+.img2 {
+    background-image: url(../images/template1/terry-vlisidis-WsEbnsnKbUE-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+}
+
+.img3 {
+    background-image: url(../images/template1/ISKO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+}
+
+.main-carousel {
+    width: 100%;
+}
+
+.carousel-cell {
+    width: 100%;
+}
+
+.x8 {
+    background-color: black;
+    color: white;
+}
+
+.c {
+    background-color: rgb(95, 91, 95);
+    padding: 0;
+    margin: 0;
+}
+
+.cv {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media(max-width:1024px) {
+    .x {
+        padding-top: 30px;
+    }
+    .x4 {
+        margin-left: 70px;
+    }
+    .img1 {
+        height: 100vh;
+    }
+    .img2 {
+        height: 135vh;
+    }
+    .x7 {
+        margin-left: 5px;
+    }
+    .img3 {
+        height: 80vh;
+    }
+}
+
+@media(max-width:768px) {
+    .x2 {
+        text-align: center;
+    }
+    .x3 {
+        justify-content: center;
+    }
+    .x4 {
+        margin-left: 120px;
+    }
+    .img2 {
+        height: 250vh;
+    }
+    .img3 {
+        height: 80vh;
+    }
+}
+
+@media(max-width:425px) {
+    .x4 {
+        margin-left: 150px;
+    }
+    .img2 {
+        height: 350vh;
+    }
+    .img3 {
+        height: 140vh;
+    }
+}
+
+@media(max-width:375px) {
+    .x4 {
+        margin-left: 130px;
+    }
+    .img2 {
+        height: 390vh;
+    }
+    .img3 {
+        height: 150vh;
+    }
+}
+
+@media(max-width:320px) {
+    .x4 {
+        margin-left: 130px;
+    }
+    .img2 {
+        height: 470vh;
+    }
+    .x4 {
+        margin-left: 100px;
+    }
+    .img3 {
+        height: 220vh;
+    }
+    .cx {
+        gap: 20px;
+    }
+    /* .x7 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    } */
+    /* .card {
+        align-items: center;
+    } */
+}

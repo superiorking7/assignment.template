@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img1 {
+    background-image: url(../images/template2/suhyeon-choi-0pUpqe0trog-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+}
+
+.x1 {
+    text-align: center;
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.x {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+
+.nav-link:hover {
+    background-color: turquoise;
+    transition: all 1s;
+    border-radius: 15px;
+}
+
+.x2 {
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.x3 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.x4 {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    justify-content: center;
+}
+
+.x10 {
+    position: relative;
+}
+
+.x5 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.x7 {
+    height: 40vh;
+    width: 100%;
+}
+
+.x8 {
+    font-family: 'Lobster', cursive;
+}
+
+.x9 {
+    height: 43vh;
+    width: 100%;
+}
+
+@media(max-width:1024px) {
+    .x7 {
+        height: 90vh;
+    }
+    .img1 {
+        height: 105vh;
+    }
+}
+
+@media(max-width:768px) {
+    .x7 {
+        height: 80vh;
+    }
+}
+
+@media(max-width:425px) {
+    .x7 {
+        height: 140vh;
+    }
+}
+
+@media(max-width:320px) {
+    .img1 {
+        height: 120vh;
+    }
+    .card {
+        width: 200px;
+    }
+    .card .card-img {
+        width: 200px;
+    }
+}
+
+
+/* .img2 {
+    background-image: url(../images/template1/iskp2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+} */
+
+
+/* .x:hover {
+    animation: promo 3s ease-in 0s infinite forwards;
+    /* animation: launch 0s timing-function delay iteration-count direction fill-mode; */
+
+
+/* } */
+
+
+/* @keyframes promo {
+    0% {
+        margin-top: 50px;
+    }
+    25% {
+        margin: 40px;
+    }
+    50% {
+        margin: 50px;
+    }
+    75% {
+        margin: 30px;
+    }
+    100% {
+        margin: 20px;
+    }
+} */
